@@ -252,12 +252,15 @@ nav ul li a:hover{
 }
 
 .brain-img{
-    width: 100%;
-    display: block;
+    width: 600px;
+    height: 600px;
+    border-radius: 12px;
+    background: url(../assets/knowledge.png);
 }
 
 .brain-right{
     width: 600px;
+    gap: 60;
 }
 
 .brain-tag{
@@ -305,4 +308,72 @@ nav ul li a:hover{
     color: #333333;
     font-weight: 500;
     margin: 0;
+}
+.think{
+    width: 1150px;
+    height: 250px;
+    margin: 0 auto;
+    background-color:rgba(247, 246, 242, 1);
+    padding: 80px 40px 80px 40px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    border-radius: 12px;
+}
+
+.think-container{
+    width: 1200px;
+}
+
+.think-title{
+    font-size: 42px;
+    font-weight: 800;
+    color: #001a33;
+    margin-bottom: 20px;
+}
+
+.think-subtitle{
+    font-size: 18px;
+    color: #666666;
+    line-height: 1.6;
+    margin-bottom: 40px;
+}
+
+.think-action{
+    margin-bottom: 25px;
+}
+
+.btn-think-access{
+    background-color: #519a6a;
+    color: white;
+    padding: 18px 35px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+}
+.btn-think-access:hover{
+    background-color: #89903e;
+}
+
+.think-arrow{
+    font-size: 22px;
+    border-radius: 4px;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.15);
+    background: var(--#30B868, rgba(70, 145, 101, 1));
+}
+.think-arrow img{
+    display: inline-block;
+    font-size: 22px;
+    line-height: 1;
+}
+
+.think-footer-note{
+    font-size: 14px;
+    color: #999999;
 }
